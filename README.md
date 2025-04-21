@@ -129,7 +129,7 @@ lora-finetune-2025/
 │   └── text_length_distribution.png   # Text length histogram
 │
 ├── reports/                           # Documentation
-│   ├──three_musketeers_report.pdf     # Report
+│   ├──three_musketeers_LoRa_report    # Report
 │  
 ├── results/                           # Training results
 │   ├── checkpoint-15717/              # Training checkpoint
