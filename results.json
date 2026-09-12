@@ -1,0 +1,25 @@
+{
+  "base_model": "roberta-base",
+  "dataset": "AG News",
+  "evaluation_accuracy": 0.95625,
+  "trainable_parameters": 814852,
+  "total_parameters": 125463560,
+  "trainable_percentage": 0.6495,
+  "lora": {
+    "rank": 4,
+    "alpha": 96,
+    "dropout": 0.1,
+    "target_modules": [
+      "query",
+      "key",
+      "value"
+    ]
+  },
+  "training": {
+    "epochs": 25,
+    "learning_rate": 0.0001,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.15,
+    "optimizer": "adamw_torch"
+  }
+}
